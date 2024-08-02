@@ -27,7 +27,7 @@ nav{
     }
     .navbar{
         .nav-items{
-        span > .active{
+         .active{
             border-bottom:0.20em solid #e07887;
            padding: 0;
         }
@@ -36,7 +36,7 @@ nav{
 }     
 @media screen and (max-width:500px){
     .navbar{
-        font-size: 1em;
+        font-size: 0.7em;
         margin:auto;
         padding: 0.5em 0;
     }
