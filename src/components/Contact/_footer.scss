@@ -1,10 +1,14 @@
 .footer{
     margin-top: 3em;
-    background-color: black;
+    background-color: #0E0B16;
     color:white;
     display: flex;
     flex-direction: row;
     padding: 0.3em;
+    height: 2em;
+    .font-awesome{
+        color:white;
+    }
     .phone{
         padding: 0.3em;
         margin: auto;
@@ -20,7 +24,8 @@
 @media screen and (max-width:730px){
     .footer{
         flex-wrap: wrap;
-        height: 5em;
+        height: 4em;
+        font-size: 0.7em;
     //     padding-top: 3em;
     // padding-bottom: 3em;
     }
